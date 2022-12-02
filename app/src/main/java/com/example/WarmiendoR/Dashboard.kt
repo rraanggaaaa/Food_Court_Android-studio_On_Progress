@@ -21,7 +21,7 @@ class Dashboard : AppCompatActivity() {
 
 
         btn_back.setOnClickListener {
-            val intent = Intent(this, signin::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 

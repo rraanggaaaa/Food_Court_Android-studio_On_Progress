@@ -19,7 +19,7 @@ class signup : AppCompatActivity() {
         val btn_back: Button = findViewById(R.id.btn_back)
 
         btn_back.setOnClickListener {
-            val intent = Intent(this, signin::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
@@ -40,7 +40,7 @@ class signup : AppCompatActivity() {
             else if (password.text.isBlank() == true)
                 Toast.makeText(this, "Masukkan Password!", Toast.LENGTH_SHORT).show()
             else if (username.text.isNotBlank() == true && email.text.isNotBlank() == true && password.text.isNotBlank() == true){
-                val intent = Intent(this, signin::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)}
             else {
                 Toast.makeText(this, "Error!", Toast.LENGTH_SHORT).show()
