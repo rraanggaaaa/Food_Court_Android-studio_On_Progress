@@ -105,7 +105,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textAllCaps="false"
         android:background="@drawable/custom_button_white_original"
         android:backgroundTint="@color/yellow2"
         android:layout_gravity="center"
